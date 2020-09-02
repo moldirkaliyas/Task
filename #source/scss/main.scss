@@ -1,0 +1,135 @@
+.wrapper{
+	.main {
+	min-height: 100vh;
+	flex:1 1 auto;
+	background:linear-gradient(to top, #0b2448 0%, #071428 21%, #0b2448 61%, #071428 100%);
+	max-width: 100%;
+
+
+
+&__content {
+	width: 1169px;
+	margin:0 auto;
+	background:#0e5791;
+	position: relative;
+}
+
+
+
+	&__cc {
+		padding-bottom: 80px;
+	}
+
+&__header {
+	padding-top: 65px;	
+display:flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 152px;
+}
+	&__logo {
+		padding-right: 45px;
+	}
+	&__menu {}
+	&__list {}
+	&__link {
+		color: #fefeff;
+font-family: "Myriad Pro";
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+padding-right: 15px;
+	}
+
+
+	&__body {
+		background: url("..//img/main.png")  top left no-repeat;
+		position: relative;
+		z-index:1;
+	}
+
+&__title {
+
+color: linear-gradient(to top, #fdee03 0%, #f5f5ec 100%);
+padding-top: 10px;
+font-family: "Roboto - Black";
+font-size: 36px;
+font-weight: 400;
+line-height: 51px;
+text-align: center;
+		
+	}
+	&__text {
+		color: #fbfcfd;
+font-family: "Myriad Pro";
+font-size: 24px;
+font-weight: 400;
+line-height: 30.01px;
+padding-top: 24px;
+width: 447px;
+margin:0 auto;
+text-align: center;
+	}
+	&__button {
+		background-color: #fff324;
+background-image: linear-gradient(-38deg, #fff000 0%, #447778 100%);
+color: #fafbfc;
+font-family: "Myriad Pro";
+font-size: 18px;
+font-weight: 700;
+line-height: 80px;
+text-transform: uppercase;
+padding:26px 66px;
+
+	
+	}
+	&__buttonbl {
+		padding-top: 53px;
+		padding-bottom: 161px;
+		text-align: center;
+	}
+
+
+
+	&__rightside {
+		position: absolute;
+		right:-15%;
+		top:0;
+		z-index: 2;
+		
+
+	}
+	&__rightsidebottom {
+		position: absolute;
+		right:-8%;
+		bottom:2%;
+		z-index: 2;
+		
+
+	}
+
+	&__leftside {
+		position: absolute;
+		left:-17%;
+		top:0;
+		z-index: 2;
+
+		
+
+	}
+	&__leftsidebottom {
+		position: absolute;
+		left:-8%;
+		bottom:5%;
+		z-index: 2;
+		
+
+	}
+
+
+}
+}
+
+
+	
+
